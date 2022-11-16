@@ -1,6 +1,6 @@
 # stm32-led-timer
 
-It's a simple project of blinking two LEDs with a timer interrupt. 
+It's a simple project of blinking two LEDs with a timer interrupt of 1 sec. 
 These Two LEDs are connected to pin PA5 and PB14.
 
 You can find the interrupt handler function- *void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim)* in the main.c file, which handles the GPIO toggle operation.
