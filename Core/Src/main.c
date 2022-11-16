@@ -254,7 +254,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim)
 {
   if (htim == &htim2)
   {
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_5);
+  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
   HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
   }
 }
