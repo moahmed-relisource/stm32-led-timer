@@ -11,4 +11,4 @@ How to build and upload the code
 2. Generate Code
 3. Open Project with IAR EW for ARM
 4. Build and upload the code
-5. 
+
